@@ -8,11 +8,16 @@
   --headerTextColor: white;
   --HeaderTextHover: rgb(69, 69, 69);
 }
+header {
+  background-color:var(--headerColor);
+  min-height: 100px;
+}
 
 .Header-Container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto ;
-  background-color:var(--headerColor);
+  min-height: 50px;
+  align-items: center;
 }
 
  .header_Container a:link, a:visited {
