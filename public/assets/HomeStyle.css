@@ -1,0 +1,42 @@
+*{
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --headerColor: rgb(44, 43, 43);
+  --headerTextColor: white;
+  --HeaderTextHover: rgb(69, 69, 69);
+}
+
+.Header-Container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto ;
+  background-color:var(--headerColor);
+}
+
+ .header_Container a:link, a:visited {
+  /* grid-gap: 10px; */
+  font-weight: bold;
+  color: var(--headerTextColor);
+  margin: 6px 0px;
+  padding: 0px 5px;
+}
+
+.header_Container a:hover, a:active {
+ background-color: var(--HeaderTextHover);
+ border-radius: 5px;
+ 
+}
+
+.grid-item-A {
+  text-decoration: none;
+}
+
+header img {
+ min-width: 100%;
+ background-size: cover;
+ height: 100px;
+
+ object-position: center center;
+}
