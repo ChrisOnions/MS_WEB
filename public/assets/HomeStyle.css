@@ -1,5 +1,6 @@
 *{
-  border: 1px solid black;
+   /* border: 1px solid black;  */
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +16,7 @@ header {
 
 .Header-Container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto ;
+  grid-template-columns: auto auto auto auto  ;
   min-height: 50px;
   align-items: center;
 }
@@ -28,20 +29,32 @@ header {
   padding: 0px 5px;
 }
 
-.header_Container a:hover, a:active {
+.header_Container, a:hover {
  background-color: var(--HeaderTextHover);
  border-radius: 5px;
  
 }
 
-.grid-item-A {
+.grid-item {
   text-decoration: none;
+ text-align: center;
 }
 
-header img {
+.header_img {
  min-width: 100%;
  background-size: cover;
  height: 100px;
-
  object-position: center center;
+}
+.Content_section{
+  padding: 15px;
+}
+.Projects_Container {
+  text-align: center;
+}
+.About_Us_container {
+  text-align: center;
+}
+.img_fit{
+  width: 100%;
 }
